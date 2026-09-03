@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Andre's Corner</title>
+<meta name="description" content="Andre's Corner — sitio oficial. Información de contacto, servicios y políticas.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <span class="mark">A</span>
+      Andre's Corner
+    </a>
+    <nav class="site-nav">
+      <a href="index.html" class="active">Inicio</a>
+      <a href="privacy.html">Privacidad</a>
+      <a href="terms.html">Términos</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <h1>Andre's Corner</h1>
+    <p class="lead">
+      Bienvenido al sitio oficial de Andre's Corner. Aquí encontrarás información
+      sobre nuestro negocio, cómo contactarnos y nuestras políticas.
+    </p>
+    <a class="btn" href="#contacto">Contactar</a>
+    <a class="btn secondary" href="privacy.html">Política de Privacidad</a>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <h2>Sobre nosotros</h2>
+    <p>
+      Andre's Corner es un negocio comprometido con ofrecer un servicio cercano
+      y de confianza a nuestros clientes. Utilizamos canales digitales, incluido
+      WhatsApp, para responder consultas y gestionar pedidos de forma rápida y sencilla.
+    </p>
+    <div class="grid">
+      <div class="card">
+        <h3>Atención al cliente</h3>
+        <p>Respondemos consultas por WhatsApp y correo electrónico en horario comercial.</p>
+      </div>
+      <div class="card">
+        <h3>Pedidos y consultas</h3>
+        <p>Gestiona tus pedidos o solicita información directamente a través de nuestros canales de contacto.</p>
+      </div>
+      <div class="card">
+        <h3>Compromiso con tu privacidad</h3>
+        <p>Tratamos tus datos de forma responsable. Consulta nuestra <a href="privacy.html">Política de Privacidad</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contacto">
+  <div class="wrap">
+    <h2>Contacto</h2>
+    <ul class="contact-list">
+      <li><span class="label">Negocio:</span> Andre's Corner</li>
+      <li><span class="label">Correo:</span> <a href="mailto:contacto@example.com">contacto@example.com</a></li>
+      <li><span class="label">Teléfono / WhatsApp:</span> +34 000 000 000</li>
+      <li><span class="label">Dirección:</span> Calle Ejemplo 123, Madrid, España</li>
+    </ul>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    <span>&copy; <span id="year"></span> Andre's Corner. Todos los derechos reservados.</span>
+    <span><a href="privacy.html">Privacidad</a> · <a href="terms.html">Términos</a></span>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
